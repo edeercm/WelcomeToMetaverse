@@ -1,0 +1,18 @@
+.avatar {
+    width: 40%;
+}
+
+@media screen and (max-width: 435px) {
+
+    .avatar {
+        width: 85%;
+    }
+   
+}
+
+@media screen and (max-width: 845px) {
+
+    .avatar {
+        width: 65%;
+    }
+}

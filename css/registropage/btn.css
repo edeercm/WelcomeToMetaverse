@@ -1,0 +1,29 @@
+button {
+    margin-top: 2.5rem;
+    width: 100%;
+    padding: 5px;
+    font-family: var(--principal-font);
+    font-size: 1.445rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--btn2-text-color);
+    opacity: 0.575;
+    border: transparent;
+    border-radius: 0.315rem;
+    cursor: pointer;
+    transition: 0.75s ease;
+}
+
+#btn:hover {
+    color: var(--btn2-hover-color);
+    background: var(--btn-hoverbg-color);
+    border: 1px solid var(--btn-hoverborder-color);
+    text-shadow: 0 0 5px var(--btn2-hovertextshadow-color),
+                0 0 10px var(--btn2-hovertextshadow-color),
+                0 0 20px var(--btn2-hovertextshadow-color);
+    box-shadow: 0 0 5px var(--btn-hoverboxshadow-color),
+                0 0 20px var(--btn-hoverboxshadow-color),
+                0 0 50px var(--btn-hoverboxshadow-color),
+                0 0 100px var(--btn-hoverboxshadow-color);
+    border-color: transparent;
+}

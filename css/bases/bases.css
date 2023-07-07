@@ -1,0 +1,35 @@
+:root {
+
+    --principal-font: 'Orbitron', sans-serif;
+    --btn-hoverbg-color: #008cff;
+    --btn-hoverborder-color: #008cff;
+    --btn-hoverboxshadow-color: #008cff;
+
+    /* HOMEPAGE */
+
+    --words-color: #EDF2F4;
+    --wordshadow-color:#EDF2F4;
+    --btn-text-color: #EDF2F4;
+    --btn-border-color: #EDF2F4;
+    --btn-hover-color: #EDF2F4;
+    --btn-hovertextshadow-color: #EDF2F4;
+
+    /* REGISTROPAGE */
+
+    --input-borderbottom-color: #011627;
+    --input-inputlabel-color: #F2F4F3;
+    --input-messagerror-color: #1F2232;
+    --btn2-text-color: #000000;
+    --btn2-hover-color: #ffffff;
+    --btn2-hovertextshadow-color: #ffffff;
+
+    /* SINGUPAGEDONE */
+
+    --singupagedonetext-color:#FDFFFC;
+    --singupagedonetextshadow-color: #FDFFFC;
+    --btn3-text-color: #FFFFFF;
+    --btn3-background-color: #008cff;
+    --btn3-textshadow-color: #FFFFFF;
+    --btn3-boxshadow-color: #008cff;
+
+}

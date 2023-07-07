@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Pre Register</title>
+
+        <link rel="shortcut icon" href="img/icon.png">
+
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/bases/bases.css">
+        <link rel="stylesheet" href="css/bases/reset.css">
+
+        <link rel="stylesheet" href="css/registropage-body.css">
+        <link rel="stylesheet" href="css/registropage/registropage-container.css">
+        <link rel="stylesheet" href="css/registropage/registropage-card.css">
+        <link rel="stylesheet" href="css/registropage/registropage-card-title.css">
+        <link rel="stylesheet" href="css/registropage/registropage-input-container.css">
+        <link rel="stylesheet" href="css/registropage/input.css">
+        <link rel="stylesheet" href="css/registropage/input-label.css">
+        <link rel="stylesheet" href="css/registropage/input-message-error.css">
+        <link rel="stylesheet" href="css/registropage/btn.css">
+
+    </head>
+
+    <body>
+
+        <main>
+
+            <section class="registropage__container" data-aos="zoom-in">
+
+                <div class="registropage__card">
+
+                    <h1 class="registropage__card-title">¡Hello World!</h1>
+
+                    <form action="singupagedone.html" class="formulario">
+
+                        <fieldset>
+
+                            <div class="registropage__input-container">
+                                <input name="name" id="name" class="input" type="text" placeholder="Nombre" required data-tipo="nombre">
+                                <label class="input__label" for="name">Name</label>
+                                <span class="input__message-error">This field is not valid</span>
+                            </div>
+
+                            <div class="registropage__input-container">
+                                    <input name="email" id="email" class="input" type="email" placeholder="Email" required data-tipo="email">
+                                    <label class="input__label" for="email">Email</label>
+                                    <span class="input__message-error">This field is not valid</span>
+                            </div>
+
+                            <div class="registropage__input-container">
+                                <input name="password" id="password" class="input" type="password" placeholder="Contraseña" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,12}" title="Entre 6y 12 caracteres, al menos una letra minúscula, una mayúscula, un número y sin caracteres especiales." data-tipo="password">
+                                <label class="input__label" for="password">Password</label>
+                                <span class="input__message-error">This field is not valid</span>
+                            </div>
+
+                        </fieldset>
+
+                        <fieldset>
+
+                            <div class="registropage__input-container">
+                                <input name="birth" id="birth" class="input" type="date" placeholder="Fecha de nacimento" required data-tipo="nacimiento">
+                                <label class="input__label" for="birth">Birth date</label>
+                                <span class="input__message-error">This field is not valid</span>
+                            </div>
+
+                            <div class="registropage__input-container">
+                                <input name="phoneNumber" id="phoneNumber" class="input" type="text" placeholder="Número telefónico" pattern="\d{10}" required maxlength="10" data-tipo="numero">
+                                <label class="input__label" for="phoneNumber">Phone number</label>
+                                <span class="input__message-error">This field is not valid</span>
+                            </div>
+
+                        </fieldset>
+
+                        <button id="btn">Let's go</button>
+
+                    </form>
+
+                </div>
+
+            </section>
+
+        </main>
+
+        <script src="js/app.js" type="module"></script>
+
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+        <script>
+            AOS.init({
+                duration: 1500
+            });
+        </script>
+
+    </body>
+
+</html>

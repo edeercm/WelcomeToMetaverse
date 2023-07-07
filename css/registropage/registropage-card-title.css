@@ -1,0 +1,7 @@
+.registropage__card-title{
+    font-family: var(--principal-font);
+    font-size: 3.775rem;
+    font-weight: 700;
+    text-align: center;
+    opacity: 0.7;
+}

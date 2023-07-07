@@ -1,0 +1,19 @@
+.input {
+    padding: 1.775rem 0 0;
+    box-sizing: border-box;
+    border-bottom: 0.185rem solid var(--input-borderbottom-color);
+    background-color: transparent;
+    opacity: 0.5;
+}
+  
+  
+.input::placeholder {
+    visibility: hidden;
+}
+  
+.input:focus {
+    outline: none;
+}
+
+
+

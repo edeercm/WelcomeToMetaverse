@@ -1,0 +1,14 @@
+.input__label {
+    position: absolute;
+    top: 1.675rem;
+    font-size: 1.055rem;
+    color: var(--input-inputlabel-color);
+    transition: all 0.25s;
+}
+
+.input:not(:placeholder-shown) + .input__label,
+.input:focus + .input__label {
+    font-size: 1rem;
+    top: 0.5rem;
+    transition: all 0.25s;
+}

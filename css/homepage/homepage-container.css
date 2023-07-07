@@ -1,0 +1,25 @@
+.homepage__container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width: 435px) {
+
+    .homepage__container {
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+}
+
+@media screen and (max-width: 885px) {
+
+    .homepage__container {
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+}

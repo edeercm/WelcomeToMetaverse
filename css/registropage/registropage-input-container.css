@@ -1,0 +1,9 @@
+.registropage__input-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-family: var(--principal-font);
+    font-weight: 600;
+    box-sizing: border-box;
+}

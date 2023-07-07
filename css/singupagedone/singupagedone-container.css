@@ -1,0 +1,24 @@
+.singupagedone__container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width: 435px) {
+
+    .singupagedone__container {
+        flex-direction: column;
+    }
+   
+}
+
+@media screen and (max-width: 885px) {
+
+    .singupagedone__container {
+        flex-direction: column;
+    }
+   
+}

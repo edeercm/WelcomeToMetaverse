@@ -1,0 +1,37 @@
+.word__1,
+.word__2,
+.word__3 {
+    font-family: var(--principal-font);
+    font-weight: 800;
+    color: var(--words-color);
+    text-shadow: 0 0 10px var(--wordshadow-color);
+}
+
+.word__1 {
+    font-size: 4.775rem;
+}
+
+.word__2 {
+    font-size: 2.775rem;
+}
+
+.word__3 {
+    font-size: 2.775rem;
+}
+
+@media screen and (max-width: 435px) {
+
+    .word__1 {
+        font-size: 3.405rem;
+    }
+    
+    .word__2 {
+        font-size: 2.775rem;
+    }
+    
+    .word__3 {
+        font-size: 1.975rem;
+    }
+
+}
+

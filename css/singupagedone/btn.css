@@ -1,0 +1,21 @@
+button {
+    margin-top: 2.5rem;
+    padding: 0.625rem 1.25rem;
+    text-transform: uppercase;
+    font-family: var(--principal-font);
+    font-size: 1.445rem;
+    font-weight: 700;
+    color: var(--btn3-text-color);
+    opacity: 0.35;
+    border-radius: 0.5rem;
+    background: var(--btn3-background-color);
+    text-shadow: 0 0 5px var(--btn3-textshadow-color),
+                0 0 10px var(--btn3-textshadow-color),
+                0 0 20px var(--btn3-textshadow-color);
+    box-shadow: 0 0 5px var(--btn3-boxshadow-color),
+                0 0 20px var(--btn3-boxshadow-color),
+                0 0 50px var(--btn3-boxshadow-color),
+                0 0 100px var(--btn3-boxshadow-color);
+    cursor: pointer;
+    transition: 0.5s ease;
+}
